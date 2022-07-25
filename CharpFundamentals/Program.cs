@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CharpFundamentals.Collections;
+using System;
 
 namespace CharpFundamentals
 {
@@ -6,7 +7,12 @@ namespace CharpFundamentals
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Console.WriteLine("Hello World!");
+            //Linq1 l1=new Linq1();
+            // l1.LinqLearning();
+            LinqToXml lxml = new LinqToXml();
+            lxml.readLinqToXML();
+
         }
     }
 }
