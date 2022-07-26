@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
+using CharpFundamentals.Oops;
 
 namespace CharpFundamentals.Collections
 {
@@ -15,5 +16,12 @@ namespace CharpFundamentals.Collections
                 Console.WriteLine(no);
             }
                 }
+    }
+    public class inhertitanceDiffAssembly : Inheritance
+    {
+        public void getInternalDiffAssembly()
+        {
+            Console.WriteLine(count);
+        }
     }
 }

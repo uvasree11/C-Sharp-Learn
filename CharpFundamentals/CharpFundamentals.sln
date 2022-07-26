@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharpFundamentals", "CharpFundamentals.csproj", "{8731F10D-D02A-4EFC-8F45-02C6402CBA3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharpFundamentals", "CharpFundamentals.csproj", "{8731F10D-D02A-4EFC-8F45-02C6402CBA3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceCheck", "..\InheritanceCheck\InheritanceCheck.csproj", "{BD525344-3899-4110-B779-CC43BD176DDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8731F10D-D02A-4EFC-8F45-02C6402CBA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8731F10D-D02A-4EFC-8F45-02C6402CBA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8731F10D-D02A-4EFC-8F45-02C6402CBA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD525344-3899-4110-B779-CC43BD176DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD525344-3899-4110-B779-CC43BD176DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD525344-3899-4110-B779-CC43BD176DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD525344-3899-4110-B779-CC43BD176DDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
