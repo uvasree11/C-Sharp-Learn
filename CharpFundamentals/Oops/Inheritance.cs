@@ -9,7 +9,7 @@ namespace CharpFundamentals.Oops
         internal int count = 0;
         public int check = 1;
         protected int multiple = 10;
-         public abstract class A
+        public abstract class A
         {
             private int value = 10; //Can be used only inside the class or nested class
             protected int sum = 10;//can be used in derived class
@@ -22,28 +22,29 @@ namespace CharpFundamentals.Oops
             //Virtual Base class Method -- If the base class method have virtual keyword, then only derived class method can override the method
             public virtual void baseVirtualClassMethod()
             {
-                 int total = 100;            
+                int total = 100;
             }
             //Abstract Base class method --If the base class method have abstract keyword, then only derived class method can override the method
             public abstract void baseAbstractClassMethod();
-            
-            public class B :A//Nested class
+
+            public class B : A//Nested class
             {
                 public override void baseAbstractClassMethod() //Abstract method must be used in derived class
                 {
                     throw new NotImplementedException();
                 }
 
-                public void inheritstaticVariable() {
+                public void inheritstaticVariable()
+                {
                     Console.WriteLine($"print private value: {value}"); //We can use static variable in nested class
                     Console.WriteLine(result);//Internal value can be used in derived class and class inside same assembly
                     Console.WriteLine(sum);//Protected value can be used in derived class of same or different assembly
                 }
 
-               
+
             }
         }
-        public class C :A
+        public class C : A
         {
             public void inheritstaticVariable()
             {
@@ -62,4 +63,5 @@ namespace CharpFundamentals.Oops
 
             }
         }
+    }
 }
